@@ -1,0 +1,61 @@
+<html>
+<head>
+</head>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<style type="text/css">
+#bodycontainer {
+	display: none;
+}
+</style>
+<body>
+	<h2>Cloud Computing Project 2</h2>
+	<h3>Cloud Storage Manager</h3>
+	<br>
+	<div id="logInInfo"></div>
+	<div id="googleLinkDiv">
+		<button id="linkGoogleButton">Link Google Drive</button>
+	</div>
+
+	<div id="dropboxLinkDiv">
+		<button id="linkDropBoxButton">Link DropBox</button>
+	</div>
+	<div id="bodycontainer">
+		<div>
+			<h3>Upload file:</h3>
+			<input type="file" id="fileUploadInput" name="files"><br>
+			<br>
+			<button id="uploadFileButton">Upload File</button>
+			<div id="fileUploadInfo"></div>
+		</div>
+		<hr>
+		<div id="loadtesting">
+			<h3>Load Testing:</h3>
+			<p>Select files and upload one-by-one to simulate load</p>
+			<input type="file" id="loadTestInp" name="files" multiple="multiple"><br>
+			<br>
+			<button id="loadTestBut">Go!!</button>
+		</div>
+		<div>
+			<hr>
+			<div id="DownloadDiv">
+				<h3>Scale download testing</h3>
+				<button id="DownloadTestBut">Download!!</button>
+
+			</div>
+		</div>
+		<hr>
+		<div>
+			<h3>Existing files:</h3>
+			<div id="existingFileTable">
+				<table>
+					<tbody>
+						<tr></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
